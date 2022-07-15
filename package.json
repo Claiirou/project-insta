@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "migrateDB": "npx prisma migrate dev",
+    "resetDB": "npx prisma migrate reset",
+    "generate-db-client": "npx prisma generate",
+    "showDB": "npx prisma studio",
+    "seed": "npx prisma db seed"
   },
   "dependencies": {
     "next": "12.2.2",
